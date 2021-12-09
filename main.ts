@@ -6,8 +6,6 @@ namespace RcCar
     //% hiz.min=0 hiz.max=100
     //% hiz1.min=0 hiz.max=100
     //% color="#8B0000"
-
-
 radio.onReceivedValue(function (name, value) {
     if (name == "sag") {
         sagMotor(value)
